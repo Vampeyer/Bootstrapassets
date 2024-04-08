@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+ <script src="jQueryv3.7.1.js" ></script>
+  <script src="bootstrapv3.4.1.min.js"></script>
+  <script src="popper.js" ></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Popover Example</h3>
+  <ul class="list-inline">
+    <li><a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a></li>
+    <li><a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a></li>
+    <li ><a type="button"  class="btn btn-lg btn-danger" href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a></li>
+    <li><a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a></li>
+  </ul>
+</div>
+
+
+<li ><a type="button"  class="btn btn-lg btn-danger" href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right popover</a></li>
+ 
+
+
+<div style="margin-top: 10px;">-</div>
+
+
+
+
+
+<a type="button" class="btn btn-secondary"  data-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+  Popover on top
+</a>
+<button href="#" type="button" class="btn btn-secondary"  data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+  Popover on right
+</button>
+<a href="#" title="Header"  type="button" class="btn btn-secondary"  data-toggle="popover" data-placement="bottom" data-content="Content"> 
+  Popover on bottom
+</a>
+<button type="button" class="btn btn-secondary"  data-toggle="popover" data-placement="left" data-content="content">
+  Popover on left
+</button>
+
+
+<button type="button" class="btn btn-primary" data-toggle="popover" title="Popover Title" data-content="`${<a href='https://example.com'>Click me</a>`">
+  Open Popover
+</button>
+
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+   
+});
+
+
+$(document).read(function () {
+  $('[data-bs-toggle="popover"]').popover();
+});
+
+
+</script>
+
+
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover({
+      html: true
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
