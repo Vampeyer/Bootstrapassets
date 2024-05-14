@@ -1,0 +1,23 @@
+/* .carousel-item{ 
+    background-image: url(./img/bot2.jpg);
+    height: 200px;
+    text-align: center;
+    background-repeat: no-repeat;
+} */
+/* 
+.carousel-inner{ 
+    background-position: center;
+} */
+
+
+.carousel1{ }
+
+/* .carousel2{ background-image: url(./img/bot2.jpg); } */
+
+
+.carousel2{ }
+
+img{
+    border: 2px  solid rgba(135, 34, 155, 0.658);
+    box-shadow: 10px 10px 20px 2px rgb(81, 0, 128);
+}
